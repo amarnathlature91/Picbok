@@ -1,0 +1,22 @@
+
+<div class="container mt-5">
+  <div class="card mb-3">
+    <h2 class="text-center">Login</h2>
+
+<div class="container">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" ngModel id="email" name="email" placeholder="Enter Your Email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" ngModel id="password" name="password" placeholder="Enter Your Password" required>
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+</div>
+</div>
